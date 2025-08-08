@@ -12,16 +12,16 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_axbtt7a",  // Replace with your EmailJS Service ID
-        "template_1ziboq3",  // Replace with your EmailJS Template ID
+        "service_n3s8ssv",  // Replace with your EmailJS Service ID
+        "template_9w0w4f7",  // Replace with your EmailJS Template ID
         form.current,
-        "Rz7W9pVF0HdDryNNL"  // Replace with your EmailJS Public Key
+        "E1c-cFNeHbo5ZWIUr"  // Replace with your EmailJS Public Key
       )
       .then(
         () => {
           setIsSent(true);
           form.current.reset(); // Reset form fields after sending
-          toast.success("Message sent successfully! ✅", {
+          toast.success("Message Sent Successfully! ✅", {
             position: "top-right",
             autoClose: 3000,
             hideProgressBar: false,
@@ -32,8 +32,8 @@ const Contact = () => {
           });
         },
         (error) => {
-          console.error("Error sending message:", error);
-          toast.error("Failed to send message. Please try again.", {
+          console.error("Error Sending Message:", error);
+          toast.error("Failed to Send Message. Please try again.", {
             position: "top-right",
             autoClose: 3000,
             hideProgressBar: false,
@@ -55,7 +55,7 @@ const Contact = () => {
       <ToastContainer />
 
       {/* Section Title */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-white">CONTACT</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
@@ -64,7 +64,7 @@ const Contact = () => {
       </div>
 
       {/* Contact Form */}
-      <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700">
+      <div className=" w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700">
         <h3 className="text-xl font-semibold text-white text-center">
           Connect With Me <span className="ml-1">🚀</span>
         </h3>
