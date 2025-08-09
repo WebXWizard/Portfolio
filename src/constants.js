@@ -134,7 +134,7 @@ export const education = [
     date: "Sept 2022 - July 2024",
     grade: "8.11 CGPA",
     desc: "I have completed my Bachelor's degree (BCA) in Computer Applications from RMLAU University, Uttar Pradesh. During my time at college, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering.",
-    degree: "Master of Computer Applications - MCA",
+    degree: "Bachelor of Computer Applications - BCA",
   },
  
   {
@@ -218,6 +218,6 @@ export const projects = [
     image: GYMLogo,
     tags: ["HTML", "CSS", "JS", "TailwindCSS"],
     github: "https://github.com/WebXWizard/FITHUB-LANDING-PAGE/tree/main",
-    webapp: "https://github.com/WebXWizard/FITHUB-LANDING-PAGE/tree/main",
+    webapp: "https://drive.google.com/file/d/1nV_qeMwNc4qKLGpqFpAP2kZqARd3wRZR/view?usp=sharing",
   },
 ];
