@@ -88,7 +88,7 @@ export const experiences = [
     img: ADCHLogo,
     role: "Web Developer",
     company: "Aadityaa Digital Hub",
-    date: "Jan 2025 - April 2025",
+    date: "Jan 2025 - July 2025",
     desc: "Developed dynamic and scalable web applications using the MERN Stack, handling both frontend and backend development. Collaborated with teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
     skills: [
       "HTML",
@@ -109,7 +109,7 @@ export const experiences = [
     img: DigipodiumLogo,
     role: "MERN Stack Trainee",
     company: "Digipodium",
-    date: "September 2021 - August 2022",
+    date: " March 2024 - October 2024",
     desc: "Worked as a FullStack Developer Trainee, designing and implementing scalable UI components and responsive websites using MERN Stack.My experience includes training at Digipodium where I collaborated with teams to create intuitive user experience and optimized server performance ",
     skills: [
       "HTML",
