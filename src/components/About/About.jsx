@@ -22,13 +22,13 @@ const About = () => {
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-lg xs:text-xl sm:text-2xl md:text-2xl lg:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
-            <span className="text-white">I am a </span>
+            <span className="text-white">I am an </span>
             <ReactTypingEffect
               text={[
-                'Frontend Developer',
-                'Backend Developer',
-                'UI/UX Designer',
-                'Coder',
+                'Aspiring DevOps Engineer',
+                'Cloud Enthusiast',
+                'Automation Specialist',
+                'Full Stack Developer',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -41,11 +41,10 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-sm xs:text-base sm:text-lg md:text-base lg:text-lg text-gray-300 mb-6 mt-6 leading-relaxed">
-            I am a full-stack developer with experience in
-            building scalable web applications. Skilled in both Front-end and
-            Back-end development, I specialize in the MERN Stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            Motivated BCA graduate transitioning into DevOps with hands-on practice in 
+            CI/CD, Containerization, Infrastructure as Code, and Cloud Platforms. 
+            Quick learner, passionate about automation and building scalable systems. 
+            Previously worked as a Full Stack Developer with MERN Stack expertise.
           </p>
           {/* Resume Button */}
           <div className="flex justify-center lg:justify-start">
